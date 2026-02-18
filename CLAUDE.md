@@ -6,6 +6,10 @@ End-to-end Python implementation of the methodology from the IEEE Access paper
 Emotion Exploration". Processes 4-channel Muse EEG data → emotion quadrant classification
 using MiniRocket + SVM with LOSO cross-validation.
 
+## Repository
+- GitHub: https://github.com/a1441/NeuroSense-Modules
+- Default branch: `main`
+
 ## Environment
 - Location: `D:\Claude\Neuro\`
 - Python venv: `D:\Claude\Neuro\.venv\` (Python 3.12)
