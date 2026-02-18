@@ -63,18 +63,16 @@ results/               # output artifacts (gitignored)
 - Q3 LVLA: Low Valence, Low Arousal (sad, bored)
 - Q4 HVLA: High Valence, Low Arousal (calm, relaxed)
 
-## Status
-- [x] Project scaffold created
-- [x] .venv created and all packages installed
-- [x] .gitignore, pyproject.toml written
-- [x] neurosense/__init__.py, tests/__init__.py written
-- [ ] config.py
-- [ ] data_loader.py
-- [ ] preprocessing.py
-- [ ] roi_timesliding.py
-- [ ] features.py
-- [ ] modeling.py
-- [ ] stats.py
-- [ ] run.py
-- [ ] tests/test_pipeline.py
-- [ ] README.md
+## Status — COMPLETE
+- [x] Project scaffold, .venv, all packages installed
+- [x] config.py, data_loader.py, preprocessing.py, roi_timesliding.py
+- [x] features.py, modeling.py, stats.py, run.py
+- [x] tests/test_pipeline.py — 15/15 passing
+- [x] README.md
+- [x] Pushed to https://github.com/a1441/NeuroSense-Modules
+
+## Known real-data behaviour (single-subject run)
+- No marker stream → trials inferred from recording length (65 s windows)
+- Synthetic ratings assigned (no ratings.csv provided)
+- LOSO skipped with clear message (requires ≥ 2 subjects)
+- For full LOSO: provide --data-root with multiple subjects + --ratings CSV
